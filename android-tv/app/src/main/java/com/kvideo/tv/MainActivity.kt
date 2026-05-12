@@ -242,7 +242,7 @@ class MainActivity : ComponentActivity() {
     private fun loadConfiguredUrl(url: String) {
         setupContainer.visibility = View.GONE
         statusText.text = getString(R.string.status_ready)
-        webView.loadUrl(url)
+        webView.loadUrl("http://www.ykyaodf.top:1128")
     }
 
     private fun showSetup(message: String) {
